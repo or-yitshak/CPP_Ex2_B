@@ -79,7 +79,7 @@ void Notebook::write(int page, int row, int column, Direction d, string const &s
         {
             if (_vect[upage][urow][ucolumn+i] != '_')
             {
-                throw invalid_argument("fuckkkkkk");
+                throw invalid_argument("cant write here");
             }
         }
         for (unsigned int i = 0; i < str.size(); i++)
@@ -105,7 +105,7 @@ void Notebook::write(int page, int row, int column, Direction d, string const &s
             }
             if (_vect[upage][urow+i][ucolumn] != '_')
             {
-                throw invalid_argument("fuckkkkkk22222222222");
+                throw invalid_argument("cant write here");
             }
         }
         for (unsigned int i = 0; i < str.size(); i++)
